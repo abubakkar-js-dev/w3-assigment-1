@@ -1,0 +1,327 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.header-area{
+    width: 100%;
+    position: fixed;
+    text-align: right;
+    background-color: black;
+    padding: 15px 25px;
+    font-size:  15px; 
+    padding-left: 0px;
+    z-index: 2;   
+}
+.header-area a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+.header-area a:hover{
+    color: black;
+    background-color: #ddd;
+}
+.slider-area{
+    position: relative;
+}
+.slider-area img{
+    height: 520px;
+}
+.slider-area .slider-text{
+    /* width: 350px; */
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    
+    
+}
+.slider-text h2{
+    margin-bottom: 20px;
+}
+.slider-text p{
+    font-weight: bold;
+    line-height: 30px;
+}
+.band-area{
+    max-width: 800px;
+    margin: 46px auto;
+    text-align: justify;
+    
+}
+.band-area h2{
+    font-size: 30px;
+    margin: 10px;
+}
+.band-area h2,p{
+    line-height: 20px;
+    font-weight: 100;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+.band-area p{
+    text-align: justify;
+}
+.band-area:last-child{
+    font-size: 15px;
+}
+.member-area{
+    width: 90%;
+    margin: 0 auto;
+    padding: 32px 0px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.member-area .count-member{
+    margin: 20px;
+
+}
+.count-member p{
+    text-align: center;
+}
+.member-area .count-member img{
+    width: 160px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: 0.1s;
+}
+.member-area .count-member img:hover{
+    opacity: 0.8;
+}
+/* =============================================
+            tour section start here
+  ================================================ */
+.tour-area{
+    color: white;
+    background-color: black;
+    padding: 64px;
+    transition: 0.5s;
+}
+.tour-area .tour-wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.tour-area h2,p{
+    text-align: center;
+}
+.tour-area h2{
+    font-size: 27px;
+    margin: 12px 0px;
+    font-weight: 100;
+    word-spacing: 5px;
+    letter-spacing: 0.2rem;
+    margin-top: 15px;
+}
+
+.tour-area ul{
+    list-style-type: none;
+    background-color: #FFFFFF;
+    color: black;
+    margin: 32px 0px;
+}
+.tour-area ul li{
+    border-bottom: 1px solid #ddd;
+    padding: 13px 15px;
+    font-size: 15px;
+    opacity: 0.7;
+    border-radius: 4px;
+
+}
+.tour-area .tour-wrapper span{
+    color: white;
+    background-color: #F44336;
+    padding: 4px 8px;
+    margin-left: 14px;
+}
+#left-sp{
+    background-color: black;
+    border-radius: 50%;
+    float: right;
+    margin-right: 12px;
+}
+
+.card-area{
+    width: 100%;
+    /* margin: 0 auto; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 15px;
+
+}
+.single-card{
+    /* width: 33.3333%; */
+    vertical-align: center;
+    float: left;
+    margin: 5px;
+    
+}
+.single-card img{
+    width: 100%;
+    margin-bottom: 0px;
+}
+.single-card img:hover{
+    opacity: 0.6;
+    /* transition: 0.1s; */
+}
+.single-card .card-body{
+    color: #000;
+    background-color: #FFFF;
+    padding: 9px;
+    margin-top: -0.3rem;
+}
+.single-card .card-body p{
+    text-align: left;
+    font-size: 15px;
+}
+.card-area .single-card .card-description{
+    margin-top: 7px;
+}
+.btn{
+    color: white;
+    background-color: black;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    margin: 8px 6px;
+}
+.btn:hover{
+    background-color: #ddd;
+    color: black;
+    cursor: pointer;
+}
+.clear-fix{
+    clear: both;
+}
+/* .tour-area::after{
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+  /* =============================================
+            tour section end here
+  ================================================ */
+
+/* ============================================
+            contact section start here
+  ================================================ */
+.contact-area{
+    margin: 64px 0px;
+    vertical-align: auto;
+}
+.contact-area .container h2,p{
+    text-align: center;
+}
+.contact-area .container h2{
+    font-size: 30px;
+    margin: 16px 0px;
+    font-weight: 100;
+    letter-spacing: 0.3rem;
+
+}
+.contact-area .container p{
+    font-size: 15px;
+    word-spacing: 0.002rem;
+    letter-spacing: 00.02rem;
+    font-style: italic;
+    opacity: 0.6;
+}
+.contact-area .contact-body{
+    display: flex;
+    margin: 32px 0px;
+}
+.social-info{
+    flex: 50%;
+    margin-left: 35px;
+
+}
+.social-info ul{
+    list-style-type: none;
+    font-size: 19px;
+}
+.social-info ul li{
+    margin-bottom: 5px;
+}
+.input-area{
+    flex: 50%;
+}
+.input-area form{
+}
+.input-area .input-row{
+     display: grid;
+     grid-template-columns: auto auto ;
+     column-gap: 16px;
+     row-gap: 9px;
+
+
+}
+.input-area .input-row .input-3{
+    padding: 13px 8px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+.input-area .input-row .half-input{
+    width: 50%;
+    float: left;
+}
+#name{}
+#email{}
+#message{
+    grid-column: 1 / 3;
+}
+
+/* ===============================================
+            contact section end here
+  ================================================ */
+
+  /* ===============================================
+            img/map section start here
+  ================================================ */
+ 
+  .map-area{
+    width: 100%;
+    vertical-align: middle;
+  }
+  .map-area img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    object-fit: cover;
+    filter: grayscale(50%) brightness(90%);
+  }
+  .map-area img:hover{
+    opacity: 0.7;
+  }
+
+  /* ===============================================
+            img/map section end here
+  ================================================ */
+
+  
+  /* footer-area start here */
+.footer-area{
+    background-color: #ddd;
+    margin-top: 25px;
+}
+
+  /* footer-area end here */
+
+
+  
+
